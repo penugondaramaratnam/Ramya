@@ -1,18 +1,18 @@
 Feature: Ebay Home Page Scenarios
 
-  @P1 @P2
+  @P1 @P2@regression
   Scenario: Advanced Search Link
     Given I am on Eaby Home Page
     When I click on Advanced Link
     Then I navigate to Advanced Search page
 
-  @P1 @p22 @setCookies @Test
+  @P1 @p22 @setCookies @Test@regression
   Scenario: Seach items count
     Given I am on Eaby Home Page
     When I serach for 'iPhone 11'
     Then I validate atleast 100000 search items present
 
-  @P24 @setCookies
+  @P24 @setCookies@regression
   Scenario: Seach items count2
     Given I am on Eaby Home Page
     When I serach for 'Toy Cars'
